@@ -66,27 +66,27 @@
 
 ```bash
 		Person(base class)	1-----1..* Address
-			- first_name				- country
-			- last_name					- state	
-			- dateOfBirth 				- city
-			- phoneNumber				- street address
-										- postal code
-		 ^			  	   ^	
-		/					\
+			- first_name		- country
+			- last_name		- state	
+			- dateOfBirth 		- city
+			- phoneNumber		- street address
+						- postal code
+		 ^			 ^	
+		/			  \
 	  Student(child)		Professor(child) 1..* ----------|			
-		- international		 - salary			 			|
-		+ isPartTime()			 				 			|
-		+ isOnProbation()                                   |
-			  0..* 				 			                |
-				|								 					
-				|								 			0..* Course
-				|------------------------------------- 0..6 - name
-							|					 			- code
-						Enrol(association class)			- minStudents
-							   - grade				 		- maxStudent
-							   - date					 	+ isCancelled
-												 			- start
-												 			- end
+		- international		 - salary			|
+		+ isPartTime()			 			|
+		+ isOnProbation()                                   	|
+		      0..* 				 		|
+			|								 					
+			|					      0..* Course
+			|------------------------------------- 0..6 	   - name
+						|			   - code
+					Enrol(association class)	   - minStudents
+						 - grade		   - maxStudent
+						 - date			   + isCancelled
+									   - start
+									   - end
 
 ```
 
