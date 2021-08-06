@@ -1,7 +1,7 @@
 <h2>Software Engineering Design</h2>
 <hr>
 
- - You can read the prompt of the system: [Read the prompt] (https://docs.google.com/document/d/1ehzPRJoRrdmy3Bu9h9BQk6_4Q18dNMt4Ukho_GGgyuQ/edit)
+ - You can read the prompt of the system: [Read the prompt](https://docs.google.com/document/d/1ehzPRJoRrdmy3Bu9h9BQk6_4Q18dNMt4Ukho_GGgyuQ/edit)
  
  - In this repo I put the synopsis of the software design process where
     <ul>
